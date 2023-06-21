@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(161, 181, 188);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px;
+    grid-template-areas: 
+    'foto-perfil nome nome'
+    'foto-perfil container-h2-header container-h2-header'
+    'nav nav nav';
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    transform: translate(60%, 22%);
+    border-radius: 50%;
+}
+#nome{
+    grid-area: nome;
+    padding-top: 120px;
+}
+#container-h2-header{
+    grid-area: container-h2-header;
+    margin-bottom: 30px;
+}
+#container-h2-header > h2{
+    color: rgb(97, 97, 97);
+}
+nav{
+    background-color: lightgrey;
+    padding: 5px 0px;
+    border-radius: 10px 10px 0px 0px;
+    grid-area: nav;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 20px;
+    margin: 3px 10px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 5px;
+    
+}
+nav > a:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+#foto-perfil{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    grid-area: foto-perfil;
+}
+#container-main{
+    display: grid;
+    justify-content: center;
+}
+main{
+    max-width: 800px;
+    min-width: 300px;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.272);
+}
+main p{
+    text-indent: 10px;
+    text-align: justify;
+}
+main h1{
+    padding: 10px 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul .titulo{
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 5px 0px;
+}
+
+footer{
+    background-color:  rgb(161, 181, 188);
+        margin-top: 12px;
+}
+footer p{
+    text-align: center;
+}
