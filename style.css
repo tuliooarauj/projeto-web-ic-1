@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
 }
 header{
-    min-width: 453px;
+    min-width: 462px;
 
     background-color: rgb(161, 181, 188);
     display: grid;
@@ -68,7 +68,7 @@ nav > a:hover{
 #container-main{
     display: grid;
     justify-content: center;
-    min-width: 450px;
+    min-width: 462px;
 }
 main{
     max-width: 800px;
@@ -97,14 +97,18 @@ ul .titulo{
     padding: 5px 0px;
 }
 
+
+
 footer{
     background-color:  rgb(161, 181, 188);
     margin-top: 12px;
-    min-width: 450px;
+    min-width: 462px;
 }
 footer p{
     text-align: center;
 }
+
+
 
 @media screen and (max-width: 485px){
     nav > a{
@@ -114,6 +118,6 @@ footer p{
         margin: 3px 10px;
         background-color: rgb(160, 160, 160);
         border-radius: 5px;
-        margin: 175px;
+        margin: 178px;
     }
 }
