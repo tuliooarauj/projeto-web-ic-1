@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: linear-gradient(to right, black 10px, #012340,#025959, #027333, #03A63C,#02b12e);
+}
 header{
     background-color: rgb(161, 181, 188);
     display: grid;
